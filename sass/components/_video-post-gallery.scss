@@ -1,0 +1,40 @@
+.video-post-gallery {
+    font-size: 0;
+    padding: 20px;
+    background-color: black;
+
+    .video-post-item {
+        vertical-align: top;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 50%;
+        padding: 4px;
+
+        @media (min-width: 600px) {
+            width: 33%;
+        }
+
+        .wpvl_auto_thumb_play {
+            display: none;
+        }
+    }
+
+    .item-thumbnail {
+        .wpvl_auto_thumb_box {
+            box-sizing: border-box;
+            width: 100%;
+            height: auto;
+        }
+
+        .video_lightbox_auto_anchor_image {
+            box-sizing: border-box;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .item-title {
+        color: #b5cbd1;
+        font-size: 10px;
+    }
+}

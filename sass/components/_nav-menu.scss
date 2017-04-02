@@ -1,0 +1,34 @@
+.main-navigation li {
+    float: none;
+
+    @media (min-width: 600px) {
+        float: left;
+    }
+}
+
+.main-navigation a {
+    font-family: $main-menu-font;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.64);
+    padding: 12px 23px;
+
+
+    @media (min-width: 600px) {
+        padding: 32px 23px;
+    }
+}
+
+.current-menu-item, .main-navigation li:hover a {
+    background-color: #d81406;
+}
+
+nav .menu-toggle {
+    width: 60px;
+    height: 60px;
+    color: transparent;
+    font-size: 0;
+    background: url('../../../uploads/images/burger-button.png') center/cover no-repeat ;
+    border: none;
+}

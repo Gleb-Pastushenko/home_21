@@ -1,0 +1,36 @@
+.home-page {
+    .main-wrapper {
+        @media (min-width: 550px) {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        @media (min-width: 800px) {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+
+    .article-text {
+        text-align: justify;
+        margin: 70px auto;
+        padding: 0 30px;
+    }
+
+    .video-gallery {
+        padding-bottom: 85px;
+    }
+
+    .video-gallery .title-wrapper {
+        border-bottom: 3px solid #d81406;
+    }
+
+    .video-gallery h2 {
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .gallery-wrapper {
+        margin-top: 45px;
+    }
+}

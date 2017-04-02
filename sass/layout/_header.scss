@@ -1,0 +1,19 @@
+.site-header {
+    border-bottom: 21px solid #d81406;
+
+    .header-logo {
+        padding: 0 30px;
+        text-align: center;
+
+        margin: 50px auto 70px auto;
+
+        @media (min-width: 600px) {
+            margin: 142px auto 240px auto;
+        }
+    }
+
+    .header-logo img {
+        max-width: 100%;
+
+    }
+}

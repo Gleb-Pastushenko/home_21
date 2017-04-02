@@ -1,0 +1,9 @@
+body {
+    background-color: $body-background-color;
+}
+
+.home-page {
+    .article-text, .video-gallery h2 {
+        color: $article-text-color;
+    }
+}
